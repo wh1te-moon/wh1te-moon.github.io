@@ -1,21 +1,21 @@
 # Basic
 title: wh1te-moon
 subtitle: 个人站
-description: 欢迎来到我的个人站~
+description: 分享学习和生活~
 # 头像里面的标题
 avatarTitle: wh1te-moon
 # 头像里面的描述
-avatarDesc: 学习和生活
+avatarDesc: 自由全面的发展
 # url: "http://leopardpan.cn"
 
 # 博客是否自动生成目录，false为不生成
 enableToc: true
 
 # Comment
-comment:
-    # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
-    disqus: leopard
-    # uyan: 2143225  # 有言id,登录有言官网申请
+# comment:
+#     livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
+#     disqus: leopard
+#     uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
 social:

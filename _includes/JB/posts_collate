@@ -33,8 +33,6 @@ Usage:
       <ul>
     {% endif %}
   {%if post.categories[0]=="study"%}
-  
-  
     <li>
       <span>
         {{ post.date | date: "%Y-%m-%e" }}

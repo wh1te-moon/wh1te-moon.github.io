@@ -3,7 +3,7 @@ layout: page
 title: 关于我 
 ---
 
-一个工作6年的 iOS SDK 开发者，在一家游戏公司做SDK开发和维护。
+<!-- 一个工作6年的 iOS SDK 开发者，在一家游戏公司做SDK开发和维护。
 
 除了iOS技术，我还一直维护着这个博客，懂一些前端的基础知识。
 
@@ -29,5 +29,5 @@ title: 关于我
 
 博客模板会一直持续更新，请持续关注我，谢谢~
 
-{% include comments.html %}
+{% include comments.html %} -->
 

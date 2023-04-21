@@ -2,6 +2,7 @@
 layout: page
 title: 使用ai完成流程图
 tags: AI
+categories: study
 ---
 
 在[io-draw](https://www.iodraw.com/codechart/)的网站中,可以使用简单的md语法绘制流程图.

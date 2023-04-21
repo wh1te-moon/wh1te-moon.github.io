@@ -1,5 +1,5 @@
 
-[leopard](http://leopardpan.cn) 是一个简洁的博客模板，响应式主题， 适配了电脑、手机各种屏幕，看效果直接点击下面链接
+<!-- [leopard](http://leopardpan.cn) 是一个简洁的博客模板，响应式主题， 适配了电脑、手机各种屏幕，看效果直接点击下面链接
  
  * [博客链接](http://leopardpan.cn) （部署在国内，访问更快）         
  * [Demo链接](http://leopardpan.github.io/) （部署在github page）         
@@ -108,8 +108,8 @@
 
 #### 手机端效果
 
-<img width="300" src="http://leopardpan.github.io/images/readme/img5.png" alt="wechat">
+<img width="300" src="http://leopardpan.github.io/images/readme/img5.png" alt="wechat"> -->
 
 #### 感谢   
 
-本博客在[Vno Jekyll](https://github.com/onevcat/vno-jekyll)基础上修改的。  
+本博客在[leopardpan](https://github.com/leopardpan/leopardpan.github.io)基础上修改的。  

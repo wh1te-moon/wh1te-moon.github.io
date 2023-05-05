@@ -10,7 +10,7 @@ categories: study
 
 通过给与ai,推荐[newbing](https://github.com/dice2o/BingGPT),输入
 
-    请使用Typora语法,帮我完成以下代码的流程图markdown代码:
+    用中文讲解一下以下代码的算法,并使用Typora语法,完成算法的流程图markdown代码: 
 
 加上你的代码,最后在[io-draw](https://www.iodraw.com/codechart/)中完成绘制即可.
 

@@ -23,40 +23,69 @@ categories: study
 
 ## 也许有用的
 touch name1 name2
+
 mkdir -p递归创建
+
 rm -r递归删除(文件夹必用),-f强制删除
+
 mv -f覆盖前不询问,-i覆盖前询问,-n不覆盖,mv在一个文件夹下移动,即重命名
+
 cp -i覆盖前提示,-r递归复制
+
 cat -n输出行编号-s不输出多行空格-b对非空行进行编号
+
 more 分页查看文件内容
+
 history
+
 useradd -d指定账户的主目录,-g指定用户的所属组,-G指定用户附加组,-s指定用户登录shell
+
 ,-m自动创建家目录
+
 userdel -r删除用户的同时删除家目录
+
 usermod修改用户账号属性 -u用户id,-g所属组id,-a -G?,-d -m将家目录移到新位置,-s用户
+
 账号的新登录,-l新的登录名称
+
 groupadd
+
 groupdel
+
 groupmod -g Gid
+
 chmod u文件所有者/g文件所有组/o其他用户 +/-/=rwx 文件名|目录名
+
 chmod ??? 文件名|目录名 7rwx,6rw-,5r-x,4r--,3-wx,2-w-,1--x,0---(r4w2x1)
+
 ifconfig
+
 ping 网址 -c指定ping数目,-i指定发送间隔,-s指定发送大小,-t设置TTL大小,ctrl+c退出
+
 service sshd status查看是否开启ssh服务
+
 windows ssh用xshell或putty
+
 ssh -p 端口 主机(-p端口默认22)
+
 scp将远程的文件复制过来,scp 用户(root)@ip:/本地路径,将本地的文件复制到远程,scp 本地路
 径 用户@ip:/远程路径,复制文件夹scp -r 当前路径文件夹 用户@ip 远程目录
+
 date查看系统当前时间
+
 df -TH查看磁盘分区以及挂载情况
+
 du -sh [目录名]查看目录大小
+
 du -h[文件名]察看文件大小
-uname -a查看内核,系统,cpu,-i查看硬件平台,-m查看cpu,-n节点名称,-o操作系统,-v内核版本,
--r发行版本号
+
+uname -a查看内核,系统,cpu,-i查看硬件平台,-m查看cpu,-n节点名称,-o操作系统,-v内核版本,-r发行版本号
+
 top查看进程实时情况 q退出 PID进程id,USER进程所有者,PR进程优先级,NInice值,VIRT使用虚拟
 内存量,RES使用物理内存量,SHR共享内存量,S进程状态(D不可中断的睡眠状态,R运行,S睡眠,T跟踪/停止,Z
 僵尸进程),%CPU上次更新到现在cpu时间占用百分比,%MEM占物理内存百分比,TIME+使用cpu时间总计,COMM
 AND进程名称
+
 ps -ajx查看所有进程状态 D不可中断系统进程,R运行中,S中断sleep状态,T停止,Z僵尸进程
 kill -9 [进程号]强制结束进程 kill -15 [进程号]结束进程
 whereis(选项)(参数) -b只查找二进制文件,-B<目录>在范围内查找二进制文件,-f不显示文件路径,-m

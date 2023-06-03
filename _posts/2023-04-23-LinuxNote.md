@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Linux,sql学习笔记
-tags: linux,sql
+tags: linux, sql
 categories: study
 ---
 # 非常有用的
@@ -22,19 +22,19 @@ categories: study
 
 
 ## 也许有用的
-touch name1 name2
+`touch` name1 name2
 
-mkdir -p递归创建
+`mkdir` -p递归创建
 
-rm -r递归删除(文件夹必用),-f强制删除
+`rm` -r递归删除(文件夹必用),-f强制删除
 
-mv -f覆盖前不询问,-i覆盖前询问,-n不覆盖,mv在一个文件夹下移动,即重命名
+`mv` -f覆盖前不询问,-i覆盖前询问,-n不覆盖,mv在一个文件夹下移动,即重命名
 
-cp -i覆盖前提示,-r递归复制
+`cp` -i覆盖前提示,-r递归复制
 
-cat -n输出行编号-s不输出多行空格-b对非空行进行编号
+`cat` -n输出行编号-s不输出多行空格-b对非空行进行编号
 
-more 分页查看文件内容
+`more` 分页查看文件内容
 
 history
 

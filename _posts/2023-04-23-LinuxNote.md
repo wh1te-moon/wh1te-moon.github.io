@@ -97,6 +97,7 @@ ps ajx|grep mysql或sudo server mysql status查看服务是否启动,sudo server
 止服务,sudo service mysql restart重启服务
 
 ### mysql
+```
 sudo apt install mysql -client安装命令行客户端
 mysql -u 用户 -p连接数据库
 select version();查看数据库版本
@@ -243,3 +244,4 @@ mongo port ? 初始化rs.initiate({_id:'复制集名称',members:[{_id:1,host='i
 复制集常用方法 复制集初始化rs.initiate() 查看复制集状态rs.status() 查看复制情况db.printSlaveReplicationInfo()：
 查看复制集配置rs.conf()/rs.config()
 在当前连接让secondary可以提供读操作rs.slaveOk() rs.add() rs.remove() rs.addArb() 重新加载配置文件rs.reconfig()
+```

@@ -8,7 +8,7 @@ categories: study
 artificial intelligence 人工智能
 paper-tape reader 纸带阅读器
 optical computer 光计算机
-neural com 神经计算机
+neural computer 神经计算机
 instruction set 指令集
 quantum computer 量子计算机
 difference engine 差分引擎

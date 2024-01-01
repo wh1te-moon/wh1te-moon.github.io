@@ -24,7 +24,7 @@
     
       <div class="crossnote markdown-preview  ">
       
-<p>注:支持的markdown语法不齐全,网页阅读体验差</p>
+<p>注:blog支持的markdown语法不齐全,网页阅读体验差</p>
 
 <div class="md-toc">
 <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
@@ -145,8 +145,8 @@
         </div>
       </details>
     <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
-          <a href="#差错控制-1" class="md-toc-link">
-            <p>差错控制</p>
+          <a href="#差错控制协议" class="md-toc-link">
+            <p>差错控制协议</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
           <a href="#数据交换" class="md-toc-link">
@@ -154,7 +154,20 @@
 
           </a></div><details style="padding:0;;padding-left:0px;" open="">
         <summary class="md-toc-link-wrapper">
-          <a href="#hdlc" class="md-toc-link"><p>HDLC</p>
+          <a href="#osi" class="md-toc-link"><p>OSI</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#hdlc" class="md-toc-link">
+            <p>HDLC</p>
+
+          </a></div>
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#x25" class="md-toc-link"><p>X.25</p>
 </a>
           </summary>
         <div>
@@ -183,8 +196,16 @@
         </div>
       </details>
     <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
-          <a href="#ngn" class="md-toc-link">
-            <p>NGN</p>
+          <a href="#atm" class="md-toc-link">
+            <p>ATM</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#ngn下一代网络" class="md-toc-link">
+            <p>NGN(下一代网络)</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#qa" class="md-toc-link">
+            <p>Q&amp;A</p>
 
           </a></div>
 </div>
@@ -198,7 +219,8 @@ a(终端)&lt;--&gt;b[传输控制器]&lt;--数据电路---&gt;传输控制器&lt
 <p class="math"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>C</mi><mo>=</mo><mi>B</mi><mi>l</mi><mi>o</mi><mi>g</mi><mn>2</mn><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi>S</mi><mi mathvariant="normal">/</mi><mi>N</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">C=Blog2(1+S/N)   
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.01968em;">Bl</span><span class="mord mathnormal">o</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord">2</span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mclose">)</span></span></span></span></span></p><p>无噪声信道容量:</p>
 <p class="math"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>C</mi><mo>=</mo><mn>2</mn><mi>B</mi><mi>l</mi><mi>o</mi><mi>g</mi><mn>2</mn><mi>M</mi></mrow><annotation encoding="application/x-tex">C=2Blog2M
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">2</span><span class="mord mathnormal" style="margin-right:0.01968em;">Bl</span><span class="mord mathnormal">o</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord">2</span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span></span></span></span></span></p><p><code>M:进制数</code></p>
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">2</span><span class="mord mathnormal" style="margin-right:0.01968em;">Bl</span><span class="mord mathnormal">o</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord">2</span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span></span></span></span></span></p><p><code>信噪比</code>:(S/N)=10*lg(<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>P</mi><mi>S</mi></msub></mrow><annotation encoding="application/x-tex">P_S</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.05764em;">S</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>/<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>P</mi><mi>N</mi></msub></mrow><annotation encoding="application/x-tex">P_N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.10903em;">N</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>)<br>
+<code>M:进制数</code></p>
 <h1 id="数字数据传输信道pcm">数字数据传输信道(PCM) </h1>
 <div class="mermaid">graph LR
 终端一 &amp; 终端二 &amp; 终端三---&gt;集中器---&gt;PCM---&gt;外界信道
@@ -222,22 +244,23 @@ a(终端)&lt;--&gt;b[传输控制器]&lt;--数据电路---&gt;传输控制器&lt
 data--&gt;波形变换器--&gt;发送滤波器--&gt;信道--&gt;接受滤波器--&gt;均衡器--&gt;采样判决器--&gt;a[data]
 噪声--&gt;信道
 </div><h2 id="奈奎斯特第一准则">奈奎斯特第一准则 </h2>
-<p>具有理想低通特性,截止频率为f时,采样频率至少为<code>2f</code>,此时不产生码间串扰</p>
-<p class="math"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>B</mi><mi>m</mi><mi>a</mi><mi>x</mi><mo>=</mo><mn>2</mn><mi>W</mi><mo stretchy="false">(</mo><mi>b</mi><mi>a</mi><mi>n</mi><mi>d</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">Bmax = 2W(band)
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="mord mathnormal">ma</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">2</span><span class="mord mathnormal" style="margin-right:0.13889em;">W</span><span class="mopen">(</span><span class="mord mathnormal">ban</span><span class="mord mathnormal">d</span><span class="mclose">)</span></span></span></span></span></p><pre data-role="codeBlock" data-info="" class="language-text text"><code>假设有一个模拟信号，它的最高频率成分是 4 kHz。按照奈奎斯特第一准则，为了准确地采样和重建这个信号，我们需要以至少 &gt;= 8 kHz（2 * 4 kHz）的采样频率进行采样。
-</code></pre><pre data-role="codeBlock" data-info="" class="language-text text"><code>假设我们有一个带宽为 1 kHz 的信道。根据奈奎斯特第一准则，为了避免码间串扰，我们的码元传输速率应该是带宽的两倍，即 &gt;= 2 kHz。
+<p>具有理想低通特性,截止频率为<code>f</code>时,采样频率为<code>2f</code>,此时不产生码间串扰</p>
+<p class="math"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>B</mi><mo>=</mo><mn>2</mn><mi>W</mi><mo stretchy="false">(</mo><mi>b</mi><mi>a</mi><mi>n</mi><mi>d</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">B = 2W(band)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">2</span><span class="mord mathnormal" style="margin-right:0.13889em;">W</span><span class="mopen">(</span><span class="mord mathnormal">ban</span><span class="mord mathnormal">d</span><span class="mclose">)</span></span></span></span></span></p><pre data-role="codeBlock" data-info="" class="language-text text"><code>假设有一个模拟信号，它的最高频率成分是 4 kHz。按照奈奎斯特第一准则，为了准确地采样和重建这个信号，我们需要以8 kHz（2 * 4 kHz）的采样频率进行采样。
+</code></pre><pre data-role="codeBlock" data-info="" class="language-text text"><code>假设我们有一个带宽为 1 kHz 的信道。根据奈奎斯特第一准则，为了避免码间串扰，我们的码元传输速率应该是带宽的两倍，即 2 kHz。
 
-现在，我们考虑每个码元代表一个二进制位。如果我们以 2 kHz 的速率传输，每个码元的持续时间为 1/2 kHz = 0.5 毫秒。这意味着在每个 0.5 毫秒的时间内，我们可以传输一个二进制位。
+现在，我们考虑每个码元代表一个二进制位。如果我们以 2 kHz 的速率传输，每个码元的持续时间为 1/2 Hz = 0.5 毫秒。这意味着在每个 0.5 毫秒的时间内，我们可以传输一个二进制位。
 </code></pre><h2 id="奈奎斯特第二准则">奈奎斯特第二准则 </h2>
 <p>有控制地在某些码元的抽样时刻引入码间干扰，而在其余码元的抽样时刻无码间干扰，就能使频带利用率达到理论上的最大值，同时又可降低对定时精度的要求</p>
 <p><code>总的来说,奈奎斯特的总的准则体现为</code></p>
 <p class="math"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>C</mi><mo>=</mo><mi>B</mi><mi>l</mi><mi>o</mi><mi>g</mi><mn>2</mn><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi>S</mi><mi mathvariant="normal">/</mi><mi>N</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">C=Blog2(1+S/N)   
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.01968em;">Bl</span><span class="mord mathnormal">o</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord">2</span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mclose">)</span></span></span></span></span></p><p class="math"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>C</mi><mo>=</mo><mn>2</mn><mi>B</mi><mi>l</mi><mi>o</mi><mi>g</mi><mn>2</mn><mi>M</mi></mrow><annotation encoding="application/x-tex">C=2Blog2M
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">2</span><span class="mord mathnormal" style="margin-right:0.01968em;">Bl</span><span class="mord mathnormal">o</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord">2</span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span></span></span></span></span></p><h1 id="扰乱和解扰">扰乱和解扰 </h1>
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">2</span><span class="mord mathnormal" style="margin-right:0.01968em;">Bl</span><span class="mord mathnormal">o</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord">2</span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span></span></span></span></span></p><p>实现为<code>部分响应系统</code></p>
+<h1 id="扰乱和解扰">扰乱和解扰 </h1>
 <p>example:<br>
 输入X=abcdefg,Y=(1 ⊕ <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>D</mi><mi>M</mi></msup></mrow><annotation encoding="application/x-tex">D^M</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8413em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">D</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.10903em;">M</span></span></span></span></span></span></span></span></span></span></span>)X<br>
 X=abcdefg<br>
-<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>D</mi><mi>M</mi></msup></mrow><annotation encoding="application/x-tex">D^M</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8413em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">D</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.10903em;">M</span></span></span></span></span></span></span></span></span></span></span>X=00...00abcdefg   <code>M个0</code><br>
+<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>D</mi><mi>M</mi></msup></mrow><annotation encoding="application/x-tex">D^M</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8413em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">D</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.10903em;">M</span></span></span></span></span></span></span></span></span></span></span>X=00...00abcdefg <code>M个0</code><br>
 Y=X ⊕ <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>D</mi><mi>M</mi></msup></mrow><annotation encoding="application/x-tex">D^M</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8413em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">D</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.10903em;">M</span></span></span></span></span></span></span></span></span></span></span>X</p>
 <h1 id="频带传输系统">频带传输系统 </h1>
 <p>调制解调,调制乘载波,解调再乘载波,解调之后采样的即为原始波形(不考虑噪声)</p>
@@ -266,7 +289,7 @@ Y=X ⊕ <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w
 <h2 id="二维奇偶校验码">二维奇偶校验码 </h2>
 <h2 id="汉明码">汉明码 </h2>
 <h2 id="循环码">循环码 </h2>
-<h1 id="差错控制-1">差错控制 </h1>
+<h1 id="差错控制协议">差错控制协议 </h1>
 <ol>
 <li>停止等待(等待确认,超时,重发)</li>
 <li>自动重发
@@ -287,10 +310,28 @@ Y=X ⊕ <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w
 </ol>
 </li>
 <li>帧中继</li>
-<li>ATM交换<br>
-cell(信元)固定长度,所以非常快</li>
+<li>ATM交换</li>
 </ol>
-<h1 id="hdlc">HDLC </h1>
+<h1 id="osi">OSI </h1>
+<ul>
+<li>应用层</li>
+<li>表示层</li>
+<li>会话层:逻辑连接</li>
+<li>运输层:单位是报文</li>
+<li>网络层:单位是分组</li>
+<li>数据链路层:单位是帧
+<ul>
+<li>帧控制</li>
+<li>透明传输</li>
+<li>差错控制</li>
+<li>流量控制</li>
+<li>链路管理</li>
+<li>异常恢复</li>
+</ul>
+</li>
+<li>物理层:单位是bit</li>
+</ul>
+<h2 id="hdlc">HDLC </h2>
 <table>
 <thead>
 <tr>
@@ -306,9 +347,9 @@ cell(信元)固定长度,所以非常快</li>
 <tr>
 <td>01111110</td>
 <td></td>
-<td>ISU</td>
+<td>ISU帧</td>
 <td></td>
-<td>FCS</td>
+<td>FCS(除标志外的所有)</td>
 <td>0111110</td>
 </tr>
 <tr>
@@ -321,6 +362,7 @@ cell(信元)固定长度,所以非常快</li>
 </tr>
 </tbody>
 </table>
+<p>控制字段:</p>
 <table>
 <thead>
 <tr>
@@ -366,6 +408,18 @@ cell(信元)固定长度,所以非常快</li>
 <p><code>N(S):发送端发送帧的编号</code><br>
 <code>N(R):准备接受的对方的帧的编号,即对N(R)-1的确认</code><br>
 <code>P/F:主站1表示授权次站传输,次站传输1时表示结束.总的来说,1表示开始和结束,过程中为0</code></p>
+<h1 id="x25">X.25 </h1>
+<p>主要功能是虚电路的建立和释放</p>
+<ul>
+<li>物理层</li>
+<li>链路层</li>
+<li>分组层(网络层)
+<ul>
+<li>建立虚电路连接</li>
+<li>恢复差错</li>
+</ul>
+</li>
+</ul>
 <h2 id="功能">功能: </h2>
 <ol>
 <li>帧控制</li>
@@ -377,6 +431,7 @@ cell(信元)固定长度,所以非常快</li>
 </ol>
 <h1 id="滑动窗口">滑动窗口 </h1>
 <h1 id="帧中继">帧中继 </h1>
+<p>最大帧长至少1600byte</p>
 <table>
 <thead>
 <tr>
@@ -397,14 +452,26 @@ cell(信元)固定长度,所以非常快</li>
 </tr>
 </tbody>
 </table>
+<ul>
+<li>高效</li>
+<li>经济</li>
+<li>可靠</li>
+<li>灵活</li>
+<li>长远</li>
+</ul>
 <p>少量控制内容在地址字段内</p>
 <h2 id="拥塞控制策略">拥塞控制策略 </h2>
 <ol>
 <li>终点控制</li>
 <li>源点控制</li>
 </ol>
-<h1 id="ngn">NGN </h1>
+<h1 id="atm">ATM </h1>
+<p>cell(信元)固定长度5+48byte<br>
+HEC检验头部何时开始</p>
+<h1 id="ngn下一代网络">NGN(下一代网络) </h1>
 <p>核心是软交换</p>
+<h1 id="qa">Q&amp;A </h1>
+<p>电话网络0<sub>4k(300</sub>3400)</p>
 
       </div>
       

@@ -4,3 +4,5 @@ _posts/*sec*
 trash/*
 *.pdf
 *script*
+*.png
+*sim.md

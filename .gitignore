@@ -1,6 +1,7 @@
 _site/
 .jekyll-cache/
 _posts/*sec*
+_posts/*.md
 trash/*
 *.pdf
 *script*

@@ -3,16 +3,707 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
-      <link rel="stylesheet" href="file:///c:\Users\xhm\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.13\crossnote\dependencies\katex\katex.min.css">
+      <link rel="stylesheet" href="file:///c:\Users\xhm\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.14\crossnote\dependencies\katex\katex.min.css">
       
       
-      <script type="text/javascript" src="file:///c:\Users\xhm\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.13\crossnote\dependencies\mermaid\mermaid.min.js" charset="UTF-8"></script>
+      <script type="text/javascript" src="file:///c:\Users\xhm\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.14\crossnote\dependencies\mermaid\mermaid.min.js" charset="UTF-8"></script>
       
       
       <style>
       code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
 /* Please visit the URL below for more information: */
 /*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+.markdown-preview.markdown-preview {
+  /* MWeb：增加 padding */
+  /* MWeb：代码块高亮 */
+  /* cyrillic-ext */
+  /* cyrillic */
+  /* greek-ext */
+  /* greek */
+  /* vietnamese */
+  /* latin-ext */
+  /* latin */
+  /* cyrillic-ext */
+  /* cyrillic */
+  /* greek-ext */
+  /* greek */
+  /* vietnamese */
+  /* latin-ext */
+  /* latin */
+  /* cyrillic-ext */
+  /* cyrillic */
+  /* greek-ext */
+  /* greek */
+  /* vietnamese */
+  /* latin-ext */
+  /* latin */
+  /* cyrillic-ext */
+  /* cyrillic */
+  /* greek-ext */
+  /* greek */
+  /* vietnamese */
+  /* latin-ext */
+  /* latin */
+  /** focus mode */
+  /* prismJS 代码高亮样式 */
+  /*# sourceMappingURL=prism-base2tone-meadow-light.css.map */
+}
+.markdown-preview.markdown-preview :root {
+  --side-bar-bg-color: #fff;
+  --control-text-color: #777;
+}
+.markdown-preview.markdown-preview body {
+  min-width: 200px;
+  max-width: 760px;
+  margin: 0 auto !important;
+  padding: 1em;
+}
+.markdown-preview.markdown-preview .task-list-item {
+  list-style-type: none;
+  text-indent: -1.5em;
+}
+.markdown-preview.markdown-preview .task-list-item:before {
+  content: "";
+  display: static;
+  margin-right: 0px;
+}
+.markdown-preview.markdown-preview .task-list-item > input[type=checkbox] {
+  text-indent: -1.7em;
+}
+.markdown-preview.markdown-preview code,
+.markdown-preview.markdown-preview tt,
+.markdown-preview.markdown-preview pre {
+  border-radius: 2px;
+  font-family: Roboto Mono, Source Sans Pro, Monaco, courier, monospace !important;
+  font-size: 0.92rem;
+  color: #e96900;
+  overflow-x: auto;
+  background-color: #f8f8f8;
+}
+.markdown-preview.markdown-preview code {
+  margin: 0 2px;
+  padding: 2px 4px;
+}
+.markdown-preview.markdown-preview pre code {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.markdown-preview.markdown-preview pre {
+  padding: 0.7em 1em;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Mono"), local("RobotoMono-Regular"), url("vue/L0x5DF4xlVMF-BfR8bXMIjhGq3-cXbKDO1w.woff2") format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Mono"), local("RobotoMono-Regular"), url("vue/L0x5DF4xlVMF-BfR8bXMIjhPq3-cXbKDO1w.woff2") format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Mono"), local("RobotoMono-Regular"), url("vue/L0x5DF4xlVMF-BfR8bXMIjhHq3-cXbKDO1w.woff2") format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Mono"), local("RobotoMono-Regular"), url("vue/L0x5DF4xlVMF-BfR8bXMIjhIq3-cXbKDO1w.woff2") format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Mono"), local("RobotoMono-Regular"), url("vue/L0x5DF4xlVMF-BfR8bXMIjhEq3-cXbKDO1w.woff2") format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Mono"), local("RobotoMono-Regular"), url("vue/L0x5DF4xlVMF-BfR8bXMIjhFq3-cXbKDO1w.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Mono"), local("RobotoMono-Regular"), url("vue/L0x5DF4xlVMF-BfR8bXMIjhLq3-cXbKD.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url("vue/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmhduz8A.woff2") format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url("vue/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwkxduz8A.woff2") format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url("vue/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmxduz8A.woff2") format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url("vue/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlBduz8A.woff2") format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url("vue/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmBduz8A.woff2") format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url("vue/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmRduz8A.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url("vue/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("vue/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lqDY.woff2") format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("vue/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lqDY.woff2") format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("vue/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lqDY.woff2") format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("vue/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lqDY.woff2") format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("vue/6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lqDY.woff2") format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("vue/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lqDY.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("vue/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url("vue/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmhduz8A.woff2") format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url("vue/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwkxduz8A.woff2") format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url("vue/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmxduz8A.woff2") format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url("vue/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlBduz8A.woff2") format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url("vue/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmBduz8A.woff2") format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url("vue/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmRduz8A.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url("vue/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+.markdown-preview.markdown-preview html {
+  font-size: 16px;
+}
+.markdown-preview.markdown-preview body {
+  font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif !important;
+  color: #34495e;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6rem;
+  letter-spacing: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.markdown-preview.markdown-preview body > *:first-child {
+  margin-top: 0 !important;
+}
+.markdown-preview.markdown-preview body > *:last-child {
+  margin-bottom: 0 !important;
+}
+.markdown-preview.markdown-preview body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.markdown-preview.markdown-preview a {
+  color: #42b983;
+  font-weight: 600;
+  padding: 0 2px;
+  text-decoration: none;
+}
+.markdown-preview.markdown-preview h1,
+.markdown-preview.markdown-preview h2,
+.markdown-preview.markdown-preview h3,
+.markdown-preview.markdown-preview h4,
+.markdown-preview.markdown-preview h5,
+.markdown-preview.markdown-preview h6 {
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  line-height: 1.4;
+  cursor: text;
+}
+.markdown-preview.markdown-preview h1:hover a.anchor,
+.markdown-preview.markdown-preview h2:hover a.anchor,
+.markdown-preview.markdown-preview h3:hover a.anchor,
+.markdown-preview.markdown-preview h4:hover a.anchor,
+.markdown-preview.markdown-preview h5:hover a.anchor,
+.markdown-preview.markdown-preview h6:hover a.anchor {
+  text-decoration: none;
+}
+.markdown-preview.markdown-preview h1 tt,
+.markdown-preview.markdown-preview h1 code {
+  font-size: inherit !important;
+}
+.markdown-preview.markdown-preview h2 tt,
+.markdown-preview.markdown-preview h2 code {
+  font-size: inherit !important;
+}
+.markdown-preview.markdown-preview h3 tt,
+.markdown-preview.markdown-preview h3 code {
+  font-size: inherit !important;
+}
+.markdown-preview.markdown-preview h4 tt,
+.markdown-preview.markdown-preview h4 code {
+  font-size: inherit !important;
+}
+.markdown-preview.markdown-preview h5 tt,
+.markdown-preview.markdown-preview h5 code {
+  font-size: inherit !important;
+}
+.markdown-preview.markdown-preview h6 tt,
+.markdown-preview.markdown-preview h6 code {
+  font-size: inherit !important;
+}
+.markdown-preview.markdown-preview h2 a,
+.markdown-preview.markdown-preview h3 a {
+  color: #34495e;
+}
+.markdown-preview.markdown-preview h1 {
+  padding-bottom: 0.4rem;
+  font-size: 2.2rem;
+  line-height: 1.3;
+}
+.markdown-preview.markdown-preview h2 {
+  font-size: 1.75rem;
+  line-height: 1.225;
+  margin: 35px 0 15px;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ddd;
+}
+.markdown-preview.markdown-preview h3 {
+  font-size: 1.4rem;
+  line-height: 1.43;
+  margin: 20px 0 7px;
+}
+.markdown-preview.markdown-preview h4 {
+  font-size: 1.2rem;
+}
+.markdown-preview.markdown-preview h5 {
+  font-size: 1rem;
+}
+.markdown-preview.markdown-preview h6 {
+  font-size: 1rem;
+  color: #777;
+}
+.markdown-preview.markdown-preview p,
+.markdown-preview.markdown-preview blockquote,
+.markdown-preview.markdown-preview ul,
+.markdown-preview.markdown-preview ol,
+.markdown-preview.markdown-preview dl,
+.markdown-preview.markdown-preview table {
+  margin: 0.8em 0;
+}
+.markdown-preview.markdown-preview li > ol,
+.markdown-preview.markdown-preview li > ul {
+  margin: 0 0;
+}
+.markdown-preview.markdown-preview hr {
+  height: 2px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+.markdown-preview.markdown-preview body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+.markdown-preview.markdown-preview body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+.markdown-preview.markdown-preview body > h1:first-child + h2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+.markdown-preview.markdown-preview body > h3:first-child,
+.markdown-preview.markdown-preview body > h4:first-child,
+.markdown-preview.markdown-preview body > h5:first-child,
+.markdown-preview.markdown-preview body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+.markdown-preview.markdown-preview a:first-child h1,
+.markdown-preview.markdown-preview a:first-child h2,
+.markdown-preview.markdown-preview a:first-child h3,
+.markdown-preview.markdown-preview a:first-child h4,
+.markdown-preview.markdown-preview a:first-child h5,
+.markdown-preview.markdown-preview a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+.markdown-preview.markdown-preview h1 p,
+.markdown-preview.markdown-preview h2 p,
+.markdown-preview.markdown-preview h3 p,
+.markdown-preview.markdown-preview h4 p,
+.markdown-preview.markdown-preview h5 p,
+.markdown-preview.markdown-preview h6 p {
+  margin-top: 0;
+}
+.markdown-preview.markdown-preview li p.first {
+  display: inline-block;
+}
+.markdown-preview.markdown-preview ul,
+.markdown-preview.markdown-preview ol {
+  padding-left: 30px;
+}
+.markdown-preview.markdown-preview ul:first-child,
+.markdown-preview.markdown-preview ol:first-child {
+  margin-top: 0;
+}
+.markdown-preview.markdown-preview ul:last-child,
+.markdown-preview.markdown-preview ol:last-child {
+  margin-bottom: 0;
+}
+.markdown-preview.markdown-preview blockquote {
+  border-left: 4px solid #42b983;
+  padding: 10px 15px;
+  color: #777;
+  background-color: rgba(66, 185, 131, 0.1);
+}
+.markdown-preview.markdown-preview table {
+  padding: 0;
+  word-break: initial;
+  border-collapse: collapse;
+}
+.markdown-preview.markdown-preview table tr {
+  border-top: 1px solid #dfe2e5;
+  margin: 0;
+  padding: 0;
+}
+.markdown-preview.markdown-preview table tr:nth-child(2n),
+.markdown-preview.markdown-preview thead {
+  background-color: #fafafa;
+}
+.markdown-preview.markdown-preview table tr th {
+  font-weight: bold;
+  border: 1px solid #dfe2e5;
+  border-bottom: 0;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+.markdown-preview.markdown-preview table tr td {
+  border: 1px solid #dfe2e5;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+.markdown-preview.markdown-preview table tr th:first-child,
+.markdown-preview.markdown-preview table tr td:first-child {
+  margin-top: 0;
+}
+.markdown-preview.markdown-preview table tr th:last-child,
+.markdown-preview.markdown-preview table tr td:last-child {
+  margin-bottom: 0;
+}
+.markdown-preview.markdown-preview .cm-s-inner .cm-link,
+.markdown-preview.markdown-preview .cm-s-inner.cm-link {
+  color: #22a2c9;
+}
+.markdown-preview.markdown-preview .cm-s-inner .cm-string {
+  color: #22a2c9;
+}
+.markdown-preview.markdown-preview .md-task-list-item > input {
+  margin-left: -1.3em;
+}
+@media print {
+  .markdown-preview.markdown-preview html {
+    font-size: 13px;
+  }
+  .markdown-preview.markdown-preview table,
+  .markdown-preview.markdown-preview pre {
+    page-break-inside: avoid;
+  }
+  .markdown-preview.markdown-preview pre {
+    word-wrap: break-word;
+  }
+}
+.markdown-preview.markdown-preview .md-fences {
+  background-color: #f8f8f8;
+}
+.markdown-preview.markdown-preview .mathjax-block > .code-tooltip {
+  bottom: 0.375rem;
+}
+.markdown-preview.markdown-preview .md-image > .md-meta {
+  border-radius: 3px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  padding: 2px 0 0 4px;
+  font-size: 0.9em;
+  color: inherit;
+}
+.markdown-preview.markdown-preview .md-tag {
+  color: inherit;
+}
+.markdown-preview.markdown-preview .md-toc {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.markdown-preview.markdown-preview .sidebar-tabs {
+  border-bottom: none;
+}
+.markdown-preview.markdown-preview #typora-quick-open {
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+}
+.markdown-preview.markdown-preview #typora-quick-open-item {
+  background-color: #fafafa;
+  border-color: #fefefe #e5e5e5 #e5e5e5 #eee;
+  border-style: solid;
+  border-width: 1px;
+}
+.markdown-preview.markdown-preview #md-notification:before {
+  top: 10px;
+}
+.markdown-preview.markdown-preview .on-focus-mode blockquote {
+  border-left-color: rgba(85, 85, 85, 0.12);
+}
+.markdown-preview.markdown-preview header,
+.markdown-preview.markdown-preview .context-menu,
+.markdown-preview.markdown-preview .megamenu-content,
+.markdown-preview.markdown-preview footer {
+  font-family: "Segoe UI", "Arial", sans-serif;
+}
+.markdown-preview.markdown-preview .file-node-content:hover .file-node-icon,
+.markdown-preview.markdown-preview .file-node-content:hover .file-node-open-state {
+  visibility: visible;
+}
+.markdown-preview.markdown-preview .mac-seamless-mode #typora-sidebar {
+  background-color: var(--side-bar-bg-color);
+}
+.markdown-preview.markdown-preview .md-lang {
+  color: #b4654d;
+}
+.markdown-preview.markdown-preview .html-for-mac .context-menu {
+  --item-hover-bg-color: #e6f0fe;
+}
+.markdown-preview.markdown-preview code[class*="language-"],
+.markdown-preview.markdown-preview pre[class*="language-"] {
+  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 1.375;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  background: #fafbf9;
+  color: #4299d7;
+}
+.markdown-preview.markdown-preview pre[class*="language-"] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+}
+.markdown-preview.markdown-preview :not(pre) > code[class*="language-"] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+}
+.markdown-preview.markdown-preview .token.comment,
+.markdown-preview.markdown-preview .token.prolog,
+.markdown-preview.markdown-preview .token.doctype,
+.markdown-preview.markdown-preview .token.cdata {
+  color: #bdc3b7;
+}
+.markdown-preview.markdown-preview .token.punctuation {
+  color: #bdc3b7;
+}
+.markdown-preview.markdown-preview .token.namespace {
+  opacity: 0.7;
+}
+.markdown-preview.markdown-preview .token.tag,
+.markdown-preview.markdown-preview .token.operator,
+.markdown-preview.markdown-preview .token.number {
+  color: #1b6498;
+}
+.markdown-preview.markdown-preview .token.property,
+.markdown-preview.markdown-preview .token.function {
+  color: #66a329;
+}
+.markdown-preview.markdown-preview .token.tag-id,
+.markdown-preview.markdown-preview .token.selector,
+.markdown-preview.markdown-preview .token.atrule-id {
+  color: #4d8217;
+}
+.markdown-preview.markdown-preview code.language-javascript,
+.markdown-preview.markdown-preview .token.attr-name {
+  color: #66a329;
+}
+.markdown-preview.markdown-preview code.language-css,
+.markdown-preview.markdown-preview code.language-scss,
+.markdown-preview.markdown-preview .token.boolean,
+.markdown-preview.markdown-preview .token.string,
+.markdown-preview.markdown-preview .token.entity,
+.markdown-preview.markdown-preview .token.url,
+.markdown-preview.markdown-preview .language-css .token.string,
+.markdown-preview.markdown-preview .language-scss .token.string,
+.markdown-preview.markdown-preview .style .token.string,
+.markdown-preview.markdown-preview .token.attr-value,
+.markdown-preview.markdown-preview .token.keyword,
+.markdown-preview.markdown-preview .token.control,
+.markdown-preview.markdown-preview .token.directive,
+.markdown-preview.markdown-preview .token.unit,
+.markdown-preview.markdown-preview .token.statement,
+.markdown-preview.markdown-preview .token.regex,
+.markdown-preview.markdown-preview .token.atrule {
+  color: #277fbe;
+}
+.markdown-preview.markdown-preview .token.placeholder,
+.markdown-preview.markdown-preview .token.variable {
+  color: #8dcefc;
+}
+.markdown-preview.markdown-preview .token.deleted {
+  text-decoration: line-through;
+}
+.markdown-preview.markdown-preview .token.inserted {
+  border-bottom: 1px dotted #4d8217;
+  text-decoration: none;
+}
+.markdown-preview.markdown-preview .token.italic {
+  font-style: italic;
+}
+.markdown-preview.markdown-preview .token.important,
+.markdown-preview.markdown-preview .token.bold {
+  font-weight: bold;
+}
+.markdown-preview.markdown-preview .token.important {
+  color: #66a329;
+}
+.markdown-preview.markdown-preview .token.entity {
+  cursor: help;
+}
+.markdown-preview.markdown-preview pre > code.highlight {
+  outline: 0.4em solid #66a329;
+  outline-offset: 0.4em;
+}
+.markdown-preview.markdown-preview .line-numbers .line-numbers-rows {
+  border-right-color: #f3f4f1;
+}
+.markdown-preview.markdown-preview .line-numbers-rows > span:before {
+  color: #d1d6cd;
+}
+.markdown-preview.markdown-preview .line-highlight {
+  background: rgba(77, 130, 23, 0.2);
+  background: -webkit-gradient(linear, left top, right top, color-stop(70%, rgba(77, 130, 23, 0.2)), to(rgba(77, 130, 23, 0)));
+  background: linear-gradient(to right, rgba(77, 130, 23, 0.2) 70%, rgba(77, 130, 23, 0));
+}
 
       </style>
       <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
@@ -32,8 +723,8 @@
           </summary>
         <div>
           <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#arp" class="md-toc-link">
-            <p>arp</p>
+          <a href="#arpaddress-resolution-protocol" class="md-toc-link">
+            <p>arp(Address Resolution Protocol)</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
           <a href="#电缆引脚" class="md-toc-link">
@@ -537,7 +1228,7 @@
       </details>
     <details style="padding:0;;padding-left:24px;" open="">
         <summary class="md-toc-link-wrapper">
-          <a href="#路由重分发" class="md-toc-link"><p>路由重分发</p>
+          <a href="#redistribute" class="md-toc-link"><p>redistribute</p>
 </a>
           </summary>
         <div>
@@ -1140,16 +1831,42 @@
           </summary>
         <div>
           <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#原理-1" class="md-toc-link">
-            <p>原理</p>
+          <a href="#header" class="md-toc-link">
+            <p>header</p>
+
+          </a></div><details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#ldplabel-distribute-protocol" class="md-toc-link"><p>LDP(label distribute protocol)</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#configuration-1" class="md-toc-link">
+            <p>configuration</p>
+
+          </a></div>
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#mpls-vpn" class="md-toc-link"><p>MPLS VPN</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#data-plane" class="md-toc-link">
+            <p>data plane</p>
+
+          </a></div>
+        </div>
+      </details>
+    <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#configuration-2" class="md-toc-link">
+            <p>configuration</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#路由时" class="md-toc-link">
-            <p>路由时</p>
-
-          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#mpls-vpn" class="md-toc-link">
-            <p>MPLS VPN</p>
+          <a href="#排错-14" class="md-toc-link">
+            <p>排错</p>
 
           </a></div>
         </div>
@@ -1202,13 +1919,9 @@
 </a>
           </summary>
         <div>
-          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#ikeinternet-key-exchange" class="md-toc-link">
-            <p>IKE(Internet Key Exchange)</p>
-
-          </a></div><details style="padding:0;;padding-left:24px;" open="">
+          <details style="padding:0;;padding-left:24px;" open="">
         <summary class="md-toc-link-wrapper">
-          <a href="#site-to-site-vpn" class="md-toc-link"><p>site-to-site VPN</p>
+          <a href="#site-to-site-ipsec" class="md-toc-link"><p>site-to-site ipsec</p>
 </a>
           </summary>
         <div>
@@ -1228,7 +1941,7 @@
             <p>配置</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#排错-14" class="md-toc-link">
+          <a href="#排错-15" class="md-toc-link">
             <p>排错</p>
 
           </a></div>
@@ -1419,23 +2132,6 @@
             <p>aaa配置</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#排错-15" class="md-toc-link">
-            <p>排错</p>
-
-          </a></div>
-        </div>
-      </details>
-    <details style="padding:0;;padding-left:24px;" open="">
-        <summary class="md-toc-link-wrapper">
-          <a href="#zbfwzone-based-firewall" class="md-toc-link"><p>ZBFW(zone-based firewall)</p>
-</a>
-          </summary>
-        <div>
-          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#configure-3" class="md-toc-link">
-            <p>configure</p>
-
-          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
           <a href="#排错-16" class="md-toc-link">
             <p>排错</p>
 
@@ -1449,7 +2145,7 @@
           </summary>
         <div>
           <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#configure-4" class="md-toc-link">
+          <a href="#configure-3" class="md-toc-link">
             <p>configure</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
@@ -1574,11 +2270,33 @@
           </a></div>
         </div>
       </details>
-    <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#automation" class="md-toc-link">
-            <p>Automation</p>
+    <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#automation" class="md-toc-link"><p>Automation</p>
+</a>
+          </summary>
+        <div>
+          <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#guestshell" class="md-toc-link"><p>guestshell</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#configuration-3" class="md-toc-link">
+            <p>configuration</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#use" class="md-toc-link">
+            <p>use</p>
+
+          </a></div>
+        </div>
+      </details>
+    
+        </div>
+      </details>
+    <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
           <a href="#urpf" class="md-toc-link">
             <p>uRPF</p>
 
@@ -1636,7 +2354,7 @@
 </ol>
 </li>
 </ol>
-<h2 id="arp">arp </h2>
+<h2 id="arpaddress-resolution-protocol">arp(Address Resolution Protocol) </h2>
 <p>连接网络层和数据链路层的协议,提供根据ip查询MAC地址的服务.</p>
 <h2 id="电缆引脚">电缆引脚 </h2>
 <p>相同:交叉电缆<br>
@@ -1751,6 +2469,13 @@
 <ul>
 <li>write(!保存配置)</li>
 <li>save(!GNS3中vpc保存配置)</li>
+<li>(!rotary,allow ssh or telnet use other port)
+<ul>
+<li>ip tcp port <code>port</code> rotary <code>rotary-group</code></li>
+<li>line <code>line</code> <code>line-num</code></li>
+<li>rotary <code>rotary-group</code></li>
+</ul>
+</li>
 </ul>
 <h2 id="排错">排错 </h2>
 <ol>
@@ -2085,7 +2810,7 @@ ipv6:fe80:0a00:27ff:fe5d:6d6</li>
 <li>ipv6 unicast-routing(!启用ipv6路由)<br>
 接口模式:</li>
 <li>ipv6 address <code>address</code>/<code>prefix-length</code>(!可以重复多次以在同一个接口上添加多个ipv6子网)</li>
-<li>ipv6 address <code>前缀</code>(!如:2001:db8🅰️a::/64) eui-64(!使用eui-64自动生成主机地址)</li>
+<li>ipv6 address <code>前缀</code>(!如:2001:db8:a:a::/64) eui-64(!使用eui-64自动生成主机地址)</li>
 <li>ipv6 address autoconfig(!启用SLAAC)</li>
 </ul>
 <h3 id="第一跳安全">第一跳安全 </h3>
@@ -2113,9 +2838,11 @@ ipv6:fe80:0a00:27ff:fe5d:6d6</li>
 <p>在ipv6中,DHCP升级为DHCPv6,不再为主机通告默认路由器,默认路由器由主机使用NDP协议发现.</p>
 <h3 id="配置-5">配置 </h3>
 <ul>
-<li>中继<br>
-接口模式:
+<li>中继
 <ol>
+<li>ip dhcp relay information trust-all</li>
+<li>ip dhcp relay information option</li>
+<li>interface <code>interface</code></li>
 <li>ip helper-address <code>server-ip</code>(!在连接主机的接口上)</li>
 </ol>
 </li>
@@ -2129,8 +2856,8 @@ ipv6:fe80:0a00:27ff:fe5d:6d6</li>
 <li>dns-server <code>address1</code> <code>address2</code>(!默认dns服务器)</li>
 </ol>
  <!-- 6. (!可选)lease `days` `hours` `minutes`(设置ip租期)
- 7. (!可选)domain-name `name`
- 8. (!可选)nest-server `ipaddress`(TFTP服务器地址) -->
+ 6. (!可选)domain-name `name`
+ 7. (!可选)nest-server `ipaddress`(TFTP服务器地址) -->
 </li>
 </ul>
 <h3 id="排错-2">排错 </h3>
@@ -2163,7 +2890,11 @@ ipv6:fe80:0a00:27ff:fe5d:6d6</li>
 <li>ip nat outside</li>
 <li>静态NAT
 <ul>
-<li>ip nat inside source static <code>inside-local</code> [<code>port</code>] <code>inside-golbal</code> [<code>port</code>] [extendable]</li>
+<li>ip nat inside source static <code>inside-local</code> <code>inside-golbal</code> [extendable (!allow one inside local address map multiple inside global address)]
+<ul>
+<li>ip nat inside source static tcp <code>inside-local</code> <code>port</code> <code>inside-golbal</code> <code>port</code> [extendable]</li>
+</ul>
+</li>
 <li>ip nat outside source static <code>outside-global</code> <code>outside-local</code></li>
 </ul>
 </li>
@@ -2413,6 +3144,7 @@ Type 5或Type 7会被外部汇总的ABR过滤.</p>
 <li>(!被动接口)passive-interface {<code>type</code> <code>number</code>|default(!默认所有接口为passive)}</li>
 <li>(!区域路由过滤)area filter-list prefix <code>name</code> {in|out}</li>
 <li>(!distribute-list in can be used to filter routes from entering the routing table from the OSPF LSDB.)</li>
+<li>prefix-suppresion(!suppress the advertisement of the specific interface IP addresses (like 192.168.1.1/32) and only advertise the subnets (192.168.1.0/24))</li>
 </ol>
 <p>接口模式:</p>
 <ul>
@@ -2781,23 +3513,21 @@ DUAL--&gt;RIB
 <li>router eigrp <code>process-name</code></li>
 <li>(!可选) eigrp router-id <code>RID</code></li>
 <li>address-family {ipv4|ipv6} {unicast|vrf <code>vrf-name</code>} autonomous-system <code>as-number</code>(!地址簇子模式)
-<ol>
-<li>network <code>network</code> <code>mask</code></li>
-</ol>
 <ul>
+<li>network <code>network</code> <code>mask</code></li>
 <li>(!末梢路由器)eigrp stub [{connected|recive-only|redistuibuted|static|summary}] (!一般不使用可选项)</li>
 <li>(!末梢站点)eigrp stub-site <code>as-num</code>:<code>identifier</code>(!<code>as-num</code>:<code>identifier</code>在站内设备上相同)(!先在接口子模式上启用末梢站点)</li>
 <li>(!路由重分发默认度量)default-metric <code>band-width</code> <code>delay</code> <code>reliability</code> <code>load</code> <code>mtu</code></li>
-</ul>
-<ol>
+<li>no auto-summary</li>
 <li>exit-address-family</li>
-</ol>
+</ul>
 </li>
 </ol>
 </li>
 <li><strong>拓扑结构子模式</strong>
 <ol>
-<li>topology base(!创建)</li>
+<li>topology base(!创建)
+<ol>
 <li>(!可选)metric weights  <code>TOS</code>(!始终为0) <code>K1</code> <code>K2</code> <code>K3</code> <code>K4</code> <code>K5</code> <code>K6</code>(!K6宽度量模式)</li>
 <li>(!可选)maximum-paths <code>number</code>(!设置等价开销路由数)</li>
 <li>(!可选)variance <code>multiplier</code>(!设置等价开销路由距离容忍倍数,例如RD&lt;最佳RD*multiplier的可行会加入负载均衡中)</li>
@@ -2807,8 +3537,11 @@ DUAL--&gt;RIB
 <li>exit-af-topology(!退出)</li>
 </ol>
 </li>
-<li><strong>接口子模式</strong><br>
-af-interface {<code>interface-id</code>|default}(!default上意味着所有接口的默认设置)
+</ol>
+</li>
+<li><strong>接口子模式</strong>
+<ul>
+<li>af-interface {<code>interface-id</code>|default}(!default上意味着所有接口的默认设置)
 <ul>
 <li>(!被动接口) passive interface</li>
 <li>(!路由汇总)summary-address <code>network</code> <code>mask</code> [leak-map <code>route-map-name</code>(!???)] (!汇总路由,不能在default上用)</li>
@@ -2826,6 +3559,8 @@ af-interface {<code>interface-id</code>|default}(!default上意味着所有接�
 <ul>
 <li>hello-internal <code>seconds</code>(!默认为5s,低速接口上是60s)</li>
 <li>hold-time <code>seconds</code>(!默认是hello定时器的3倍)</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -3203,7 +3938,7 @@ C--100.64.0.0/16--&gt;B
 <li>(!修改跳数)neighbor <code>ip</code> ebgp-multihop [TTL]</li>
 </ol>
 </li>
-<li>address-family {ipv4|ipv6} {unicast|multicast} (!默认启用ipv4,使用no bgp default ipv4-unicast禁用)
+<li>address-family {ipv4|ipv6|vpnv4} {unicast|multicast} (!默认启用ipv4,使用no bgp default ipv4-unicast禁用)
 <ol>
 <li>neighbor <code>ip</code> activate(if use 'no bgp default ipv4-unicast',it's compulsory)</li>
 <li>network mask <code>subnet-mask</code> [route-map <code>map-name</code>] (!标识要安装在Loc-RIB的网络前缀(重分发到BGP的路由不需要network指定))</li>
@@ -3328,7 +4063,7 @@ show bgp ipv4 unicast(!查看BGP路由,下一跳不为0.0.0.0时说明是从BGP�
 <li>ipv6</li>
 <li>MP-BGP</li>
 </ol>
-<h3 id="路由重分发">路由重分发 </h3>
+<h3 id="redistribute">redistribute </h3>
 <p>路由重分发负责将路由从一种路由协议进程注入另一种路由协议进程,路由只会从路由表进入路由信息库.<br>
 (当路由不在路由表中,就无法进行重分发操作)</p>
 <table>
@@ -3396,16 +4131,21 @@ show bgp ipv4 unicast(!查看BGP路由,下一跳不为0.0.0.0时说明是从BGP�
 <p>路由重分发点称为边界路由器.</p>
 <h4 id="配置-15">配置 </h4>
 <p>强制选项:在特定情况下必须使用的选项,不使用会导致重分发无法进行</p>
+<p>router {eigrp|ospf|bgp} {<code>as</code>|<code>process</code>}</p>
 <ol>
 <li>EIGRP
 <ol>
+<li>assress-family {ipv4|ipv6} [vrf <code>vrf-name</code>]
+<ol>
 <li>redistribute <code>source-protocol</code> [metric <code>bandwidth</code> <code>delay</code> <code>reliability</code> <code>load</code> <code>mtu</code>] (!强制选项) [route-map <code>route-map-name</code>] [include-connected(!ipv6时)]</li>
+</ol>
+</li>
 <li>EIGRP到EIGRP的重分发会保留路径度量</li>
 </ol>
 </li>
 <li>OSPF
 <ol>
-<li>redistribute <code>source-protocol</code> [subnets(!强制选项)] [metric <code>metric</code>] [metric type {1|2}] [nssa-only] [tag <code>0-4294967295</code>] [route-map <code>route-map-name</code>] [include-connected(!强制选项)]</li>
+<li>redistribute <code>source-protocol</code> [subnets(!强制选项)] [metric <code>metric</code>] [metric-type {1|2}] [nssa-only] [tag <code>0-4294967295</code>] [route-map <code>route-map-name</code>] [include-connected(!强制选项)]</li>
 <li>OSPF重分发到OSPF会保留路径度量</li>
 </ol>
 </li>
@@ -3715,6 +4455,7 @@ speak---&gt;standby/active
 <li>(!name)standby <code>instance-id</code> name <code>name</code></li>
 <li>(!preempt)standby <code>instance-id</code> preempt(!抢占机制,默认no standby preempt)</li>
 <li>(!track)standby <code>instance-id</code> track <code>track-id</code> decrement <code>decrement-value</code>(!setting preemtion first)</li>
+<li>(!use bia)standby use-bia(!When you enable this command, the router uses its Burned-In Address (BIA), which is the unique MAC address physically assigned to the router’s network interface card (NIC), instead of the default virtual MAC address for HSRP.)</li>
 </ol>
 <h3 id="vrrp">VRRP </h3>
 <p>operating similar to HSRP.</p>
@@ -4254,8 +4995,9 @@ switchport voice vlan 1</p>
 <li>(!problems with unidirectional links)
 <ol>
 <li>stp loop guard</li>
-<li>unidirectional links detection</li>
+<li>udld ???</li>
 </ol>
+<!-- 2. unidirectional links detection -->
 </li>
 </ul>
 <h3 id="排错-9">排错 </h3>
@@ -4297,6 +5039,7 @@ switchport voice vlan 1</p>
 <li>(!可选)switchport port-security violation {protect|restrict|shutdown}(!收到规定地址之外的帧时的动作,默认是关闭接口)</li>
 <li>(!可选)switchport port-security mac-address <code>mac-address</code>(!允许的mac地址)</li>
 <li>(!可选)switchport port-security macaddress sticky(!动态配置mac地址)</li>
+<li>(!aging time)switchport port-security aging-time <code>seconds</code></li>
 </ol>
 <h2 id="排错-10">排错 </h2>
 <ul>
@@ -4754,7 +5497,10 @@ r-.-&gt;Reset
 <p>simplified campus tools:</p>
 <ul>
 <li>
-<p>VSS(Virtual Switching System),SWV(StackWise Virtual),clustering two physical switches into a single logical switch(distribution or core layer often)</p>
+<p>VSS(Virtual Switching System),single point of management for improved efficiency</p>
+</li>
+<li>
+<p>SWV(StackWise Virtual),clustering two physical switches into a single logical switch(distribution or core layer often)</p>
 </li>
 <li>
 <p>StackWise,stacking two or more switches into a single logical switch.(access layer often)</p>
@@ -5035,24 +5781,69 @@ EXEC:</li>
 <h2 id="mpls">MPLS </h2>
 <p>位于MPLS边缘的路由器会在数据包出入MPLS网络时,对数据包添加和移除MPLS头部,内部设备转发数据基于标签字段.MPLS VPN是SP的一项主营业务,可以不加密数据的前提下,确保一个客户的数据不会被发给另一个客户,而且不需要客户都处于同一个子网.</p>
 <p>MPLS可以转发除IPv4以外的三层协议,还支持多种服务.</p>
-<p>标签位于二层帧报头和三层IP数据报头之间,4字节.前20bit定义标签号,3bit定义Qos,最后1bit定义是否是最后一个标签.</p>
-<h3 id="原理-1">原理 </h3>
-<p>LIB:对标路由中的RIB.<br>
-LFIB:对标路由中的FIB<br>
-LSR:MPLS域中支持MPLS的路由器,位于MPLS域边缘的称为边缘LSR,不在边缘的称为中间LSR.边缘LSR负责为进入域的数据包添加标签(称为入站LSR),为离开MPLS的数据包删除标签(称为出站LSR).<br>
-LSP:IP数据包穿越MPLS域所采用的累积标签路径.<br>
-LDP:标签分发协议,对标路由协议.通过UDP224.0.0.2:646多播Hello包.通过TCP 646端口建立TCP会话交换标签信息.自己分配一个标签,并从邻居学习标签填充自己的LIB.最佳标签填充LFIB.</p>
+<ul>
+<li>LIB(MPLS Lable Information Base):对标路由中的RIB.</li>
+<li>LFIB(MPLS Lable Forwarding Information Base):对标路由中的FIB,but used for labeled packets</li>
+<li>LSR(Label Switch Router):MPLS域中支持MPLS的路由器,位于MPLS域边缘的称为E-LSR(Edge LSR),不在边缘的称为中间LSR.边缘LSR负责为进入域的数据包添加标签(称为Ingress E-LSR),为离开MPLS的数据包删除标签(称为Egress E-LSR).</li>
+<li>LSP(Label Switched Path):IP数据包穿越MPLS域所采用的累积标签路径.
+<ul>
+<li>LSPs are unidirectional.</li>
+</ul>
+</li>
+<li>LDP:标签分发协议,对标路由协议.通过UDP224.0.0.2:646多播Hello包.通过TCP 646端口建立TCP会话交换标签信息.自己分配一个标签,并从邻居学习标签填充自己的LIB.最佳标签填充LFIB.</li>
+</ul>
 <p>数据包穿越MPLS的过程:添加标签-&gt;添加标签到外层,删除里层标签-&gt;到达倒数第二跳,只删除标签-&gt;根据IP转发,出MPLS域<br>
 (在倒数第二跳不会继续添加标签,只会删除标签)</p>
-<h3 id="路由时">路由时 </h3>
-<p>MPLS在面对多区域OSPF时,解决方案是OSPF超级骨干(OSPF super backbone).超级骨干可以与骨干区域(area 0)相连,也可以与非骨干区域相连.</p>
-<p>MPLS面对EIGRP时,需要交换路由的路由器最好使用相同的ASN,这样度量值不会受到影响.</p>
+<h3 id="header">header </h3>
+<ul>
+<li>header:20+3+1+8 bit
+<ul>
+<li>label:20bit,used to identify LSP</li>
+<li>EXP:3bit,used for Qos</li>
+<li>S:1bit,which when set to 1,means this is the label immediately preceding the IP header</li>
+<li>TTL:8bit,like TTL in ip
+<ul>
+<li><img src="image-33.png" alt="alt text"></li>
+<li>can disable MPLS TTL propagation to allow ingress E-LSR to set the MPLS TTL to 255 to hide the MPLS network.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="ldplabel-distribute-protocol">LDP(label distribute protocol) </h3>
+<p>when a LSR learn a new route, it will allocate a label for it and advertise this binding to its LDP neighbor.</p>
+<h4 id="configuration-1">configuration </h4>
+<ol>
+<li>mpls ip(!enabled by default)</li>
+<li>mpls label protocol {ldp|tdp|both} (!ldp by default)</li>
+<li>(!mpls router id)mpls ldp router-id <code>interface</code> [force]</li>
+<li>mpls label range <code>min</code> <code>max</code>(!need to use <em>reload</em>)</li>
+<li>mpls ldp neighbor [vrf <code>vrf</code>] <code>ip-address</code> [password [0-7] <code>password</code>]</li>
+<li>interface <code>interface</code></li>
+<li>mpls ip</li>
+</ol>
 <h3 id="mpls-vpn">MPLS VPN </h3>
-<p>CE(customer edge):客户边缘路由器<br>
-PE(provider edge):提供商边缘路由器,边缘LSR<br>
-RD(Router Distinguisher):路由鉴别符,64bit,8字节,拓展IP用.<br>
-VPNv4:RD+ipv4地址<br>
-P路由器:中间LSR</p>
+<ul>
+<li>CE(customer edge):客户边缘路由器</li>
+<li>PE(provider edge):提供商边缘路由器,边缘LSR
+<ul>
+<li>need to use multiple vrfs to learn probably overlapping ipv4 route from CEs.And redistribute them into BGP.</li>
+</ul>
+</li>
+<li>RD(Router Distinguisher):路由鉴别符,64bit,8字节,拓展IP用.
+<ul>
+<li>defined in MP-BGP.Add a 64-bit RD to ipv4 prefix of a route.</li>
+<li>formatted with ipv4:num or ASN:num</li>
+</ul>
+</li>
+<li>RT(Route Targets):advertised in BGP Updates as BGP Extended PA.
+<ul>
+<li><img src="image-1.png" alt="alt text"></li>
+</ul>
+</li>
+<li>VPNv4:RD+ipv4地址</li>
+<li>P:provider 中间LSR</li>
+</ul>
 <p>PE路由器通过创建VRF实例将CE路由隔离,PE以每个VRF实例生成RD,P路由器对CE透明.PE路由器重分发路由后通过MP-iBGP交换路由,P路由器不参与BGP进程.VRF中的路由全是关于VPNv4的路由.</p>
 <ol>
 <li>CE和PE通过路由协议交换IP路由</li>
@@ -5062,7 +5853,50 @@ P路由器:中间LSR</p>
 <li>PE路由器将VPNv4重分发为Ip路由到特定VRF的路由协议中</li>
 <li>PE与另一端CE协商IP路由</li>
 </ol>
-<p>MPLS VPN先添加VPN标签,再添加MPLS标签,中间转发和MPLS过程相同,VPN只对PE有意义.</p>
+<h4 id="data-plane">data plane </h4>
+<p>MPLS VPN先添加VPN标签(inner label),再添加MPLS标签(outer label),中间转发和MPLS过程相同,VPN label只对egress PE有意义.</p>
+<ul>
+<li>The outer label identifies the segments of the LSP between the ingress PE and theegress PE, but it does not identify how the egress PE should forward the packet.</li>
+<li>The inner label identifies the egress PE’s forwarding details, in particular the outgoing interface for the unlabeled packet.</li>
+</ul>
+<h3 id="configuration-2">configuration </h3>
+<ol>
+<li>(!Creating each VRF, RD, and RT, plus associating the customer-facing PE interfaces with the correct VRF)
+<ol>
+<li>ip vrf <code>vrf-name</code>
+<ol>
+<li>rd <code>rd-value</code></li>
+<li>route-target {import|export|both} <code>rt-value</code></li>
+</ol>
+</li>
+<li>interface <code>interface</code>
+<ol>
+<li>ip vrf forwarding <code>vrf-name</code></li>
+</ol>
+</li>
+</ol>
+</li>
+<li>(!Configuring the IGP between PE and CE)</li>
+<li>(!Configuring mutual redistribution between the IGP and BGP)</li>
+<li>(!Configuring MP-BGP between PEs)
+<ol>
+<li>router bgp <code>as-num</code></li>
+<li>neighbor <code>ip</code> remote-as <code>as</code></li>
+<li>neighbor <code>ip</code> update-source <code>source-ip</code></li>
+<li>address-family vpnv4
+<ol>
+<li>neighbor <code>ip</code> activate</li>
+</ol>
+<!-- 2. neighbor `ip` send-community -->
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="排错-14">排错 </h3>
+<ol>
+<li>show mpls inetrfaces</li>
+<li>show mpls forawarding-table</li>
+</ol>
 <h2 id="sd-wan">SD-WAN </h2>
 <ul>
 <li>centuralize divice configuration and network management</li>
@@ -5199,7 +6033,7 @@ every vbond has a permanent control plane over a DTLS(datagram transport layer s
 <li>IKE:IPsec未通过,未建立IKE(Internet Key Exchange)会话</li>
 <li>IPsec:建立IKE会话,为建立IPsec SA(Security Association)</li>
 <li>NHRP:分支路由器未注册</li>
-<li>Up:ack</li>
+<li>Up:acc</li>
 </ol>
 <h2 id="nhrp路由控制">NHRP路由控制 </h2>
 <p>NHRP会覆盖某些路由的下一跳或安装新的路由.第三阶段会实行路由汇总.</p>
@@ -5239,26 +6073,10 @@ every vbond has a permanent control plane over a DTLS(datagram transport layer s
 <li>IPsec SA:数据平面,单向,至少需要入站和出站两个<br>
 两台端点设备之间只能有一个IKE SA,但能有多个IPsec SA.</li>
 </ul>
-<h3 id="ikeinternet-key-exchange">IKE(Internet Key Exchange) </h3>
-<p>IKEv1</p>
-<ul>
-<li>Phase 1:Establishes a bidirectional SA.
-<ul>
-<li>MM(Main mode):use 6 messages(slower but more secure)</li>
-<li>AM(aggressive mode):use 3 messages(faster but less secure)</li>
-</ul>
-</li>
-<li>Phase 2:Establishes a unidirectional IPsec SAs.
-<ul>
-<li>quick mode:use 3 message<br>
-IKEv2:take a total of 4 messages to bring up the IKE SA and the IPsec SA.</li>
-</ul>
-</li>
-</ul>
-<h3 id="site-to-site-vpn">site-to-site VPN </h3>
+<h3 id="site-to-site-ipsec">site-to-site ipsec </h3>
 <p>ways:</p>
 <ol>
-<li>crypto maps(not good)
+<li>(!crypto maps(not good))
 <ol>
 <li>ip access-list extended <code>acl-name</code>
 <ol>
@@ -5293,7 +6111,7 @@ IKEv2:take a total of 4 messages to bring up the IKE SA and the IPsec SA.</li>
 </li>
 </ol>
 </li>
-<li>tunnel IPsec profile
+<li>(!<strong>tunnel IPsec profile</strong>)
 <ol>
 <li>crypto isakmp policy <code>priority</code>(!1 is the highest)
 <ol>
@@ -5303,20 +6121,20 @@ IKEv2:take a total of 4 messages to bring up the IKE SA and the IPsec SA.</li>
 <li>group {1|2|5|14|15|16|19|20|24}(!recommend to use 14 or higher)</li>
 </ol>
 </li>
-<li>crypto isakmp key <code>keystring</code> address <code>address</code> [mask]</li>
+<li>crypto isakmp key <code>keystring</code> address <code>address</code> [mask] (!set address to 0.0.0.0 for all neighbors)</li>
 <li>crypto ipsec transform-set <code>transform-set-name</code> [ESP加密] [ESP认证] [AH认证] (!各只能选一个.建议aes和sha)
 <ol>
 <li>mode {transport|tunnel(!默认)}(!选择transport更好)</li>
 </ol>
 </li>
-<li>crypto ipsec profile
+<li>crypto ipsec profile <code>profile-name</code>
 <ol>
 <li>set transform-set <code>transform-set-name</code></li>
 </ol>
 </li>
 <li>进入待加密gre接口
 <ol>
-<li>tunnel protection ipsec profile <code>profilename</code> [shared]</li>
+<li>tunnel protection ipsec profile <code>profilename</code> [shared] (!must use interface as source)</li>
 </ol>
 </li>
 </ol>
@@ -5374,7 +6192,7 @@ IKEv2:take a total of 4 messages to bring up the IKE SA and the IPsec SA.</li>
 <li>crypto ikev2 keyring <code>keyring-name</code></li>
 <li>peer <code>peer-name</code>(!一个密钥环支持多个对等体,使用不同的密码)</li>
 <li>address <code>network</code> <code>mask</code></li>
-<li>pre-shared-key <code>secure-key</code></li>
+<li>pre-shared-key [address <code>address</code>] <code>secure-key</code></li>
 </ol>
 </li>
 <li>
@@ -5465,7 +6283,7 @@ IKEv2:take a total of 4 messages to bring up the IKE SA and the IPsec SA.</li>
 <li>ip address <code>ip-address</code> <code>subnet-mask</code>(!子网掩码决定了隧道的可容纳数)</li>
 <li>ip nhrp network-id <code>0-255.255.255.255</code>(!DMVPN网络ID,本地意义)
 <ol>
-<li>ip nhrp registrationno-unique(!使用dhcp是最好启用,或强制启用)</li>
+<li>ip nhrp registration no-unique(!使用dhcp是最好启用,或强制启用)</li>
 </ol>
 </li>
 <li>(!密钥)tunnel key <code>0-4294967295</code></li>
@@ -5528,9 +6346,11 @@ IKEv2:take a total of 4 messages to bring up the IKE SA and the IPsec SA.</li>
 </ol>
 </li>
 </ul>
-<h3 id="排错-14">排错 </h3>
-<p>show dmvpn [detail]<br>
-show ip nhrp [brief|detail]查看nhrp缓存</p>
+<h3 id="排错-15">排错 </h3>
+<ul>
+<li>show dmvpn [detail]</li>
+<li>show ip nhrp [brief|detail]查看nhrp缓存</li>
+</ul>
 <h2 id="lispcisco-locatorid-separation-protocol">LISP(Cisco Locator/ID Separation Protocol) </h2>
 <p>Be used to solve the problems of the default-free zone.</p>
 <ul>
@@ -6355,80 +7175,74 @@ aaa服务器会集中保护交换机和路由器的用户名/密码对,aaa服务
 <h3 id="aaa配置">aaa配置 </h3>
 <p>!配置模式:</p>
 <ol>
-<li>aaa new-model<!-- 2. username `username` password  `num` `password`(!存在本地数据库,对应local验证) -->
+<li>
+<p>aaa new-model</p>
+<!-- 2. username `username` password  `num` `password`(!存在本地数据库,对应local验证) -->
 </li>
-<li>username <code>username</code> privilege 15 algorithm-type {md5|sha256|scrypt} secret <code>password</code>(!local authentication asfallback method)</li>
-<li>tacacs-server host {<code>server-name</code>|<code>ip</code>} key <code>key</code>(!for prior version)</li>
+<li>
+<p>(!tacacs-server or radius server)</p>
+<!-- 1. tacacs-server host {`server-name`|`ip`} key `key`(!for prior version) -->
+<ol>
 <li>tacacs server <code>name</code>
 <ol>
-<li>address ipv4 {<code>hostname</code>|<code>ip</code>}</li>
+<li>address ipv4 {<code>hostname</code>|<code>ip</code>} [auth-port <code>port</code>] [ari <code>port</code>] [acc <code>port</code>]</li>
 <li>key <code>key</code></li>
 </ol>
 </li>
-<li>radius server <code>server-name</code></li>
-<li>aaa group server {radius|tacacs+} <code>group-name</code>
+<li>radius server <code>server-name</code>
 <ol>
-<li>server name <code>server-name</code>(!allow nultiple servers)</li>
+<li>address ipv4 {<code>hostname</code>|<code>ip</code>} [auth-port <code>port</code>] [ari <code>port</code>] [acc <code>port</code>]</li>
+<li>key <code>key</code></li>
 </ol>
 </li>
-<li>aaa authentication login {default|<code>line-name</code>} <code>method</code> <code>method2</code>(!method={group <code>group-name</code>|local|enable})<!-- 8.  port `port` -->
+</ol>
+</li>
+<li>
+<p>ip {radius|tacacs} source-interface <code>source-interface</code></p>
+</li>
+<li>
+<p>(!enable ISE)[aaa server {radius|tacacs} dynamic-author]</p>
+<ol>
+<li>client <code>ip</code> server-key <code>encryption-level</code> <code>key</code></li>
+</ol>
+</li>
+<li>
+<p>aaa group server {radius|tacacs+} <code>group-name</code></p>
+<ol>
+<li>server name <code>server-name</code>(!allow multiple servers)</li>
+</ol>
+</li>
+<li>
+<p>aaa authentication login {default|<code>line-name</code>} <code>method</code> <code>method2</code>(!method={group <code>group-name</code>|local|enable})</p>
+<!-- 8.  port `port` -->
 <!-- 8. aaa authenrization default `method1` `method2`(!medthod={`group-name|server-name`|local(!本地用户名认证)|login(!密码认证)}) -->
 </li>
-<li>aaa authenrization exec {default|<code>line-name</code>} <code>method</code> <code>method2</code></li>
-<li>aaa authenrization console</li>
-<li>aaa authenrization commands {privilege <code>level</code>} {default|<code>line-name</code>} <code>method</code> <code>method2</code></li>
-<li>aaa authenrization config-commands(!enable all authenrization command)</li>
-<li>aaa accounting exec {default|<code>line-name</code>} {start-stop|stop-only|wait-start} <code>method</code> <code>method2</code>(!login accounting)</li>
-<li>aaa accounting commands   {privilege <code>level</code>} {default|<code>line-name</code>} {start-stop|stop-only|wait-start} <code>method</code> <code>method2</code></li>
-</ol>
-<h3 id="排错-15">排错 </h3>
-<ol>
-<li>需要使用aaa new-model启用aaa</li>
-</ol>
-<h2 id="zbfwzone-based-firewall">ZBFW(zone-based firewall) </h2>
-<p>provide stateful security for the branch site.router interfaces are assigned to a specific zone.<br>
-two system-level zones:</p>
-<ul>
-<li>self-zone:includes all the routers' ip addresses.</li>
-<li>default-zone:assigned zone by default</li>
-</ul>
-<h3 id="configure-3">configure </h3>
-<ol>
-<li>zone security <code>zone-name</code></li>
-<li>class-map type inspect [match-all|match-any] <code>class-name</code>
-<ol>
-<li>match access-group name <code>acl</code>(!multiple)</li>
-</ol>
+<li>
+<p>aaa authenrization exec {default|<code>line-name</code>} <code>method</code> <code>method2</code></p>
 </li>
-<li>policy-map type inspect <code>ppolicy-name</code>(!have an implicit drop action)
-<ol>
-<li>class type inspect <code>class-name</code>
-<ol>
-<li>{drop [log]|pass [log]|inspect}(! <em>pass</em> just allows unidirection,inspect allows bidirection of one connection)</li>
-</ol>
+<li>
+<p>aaa authenrization console</p>
 </li>
-</ol>
+<li>
+<p>aaa authenrization commands {privilege <code>level</code>} {default|<code>line-name</code>} <code>method</code> <code>method2</code></p>
 </li>
-<li>zone-pair security <code>zone-pair-name</code> source <code>source-zone-name</code> destination <code>destination-zone-name</code>
-<ol>
-<li>service-policy type inspect <code>pilicy-name</code></li>
-</ol>
+<li>
+<p>aaa authenrization config-commands(!enable all authenrization command)</p>
 </li>
-<li>interface <code>interface</code>
-<ol>
-<li>zone-member security <code>zone-name</code></li>
-</ol>
+<li>
+<p>aaa accounting exec {default|<code>line-name</code>} {start-stop|stop-only|wait-start} <code>method</code> <code>method2</code>(!login accounting)</p>
+</li>
+<li>
+<p>aaa accounting commands   {privilege <code>level</code>} {default|<code>line-name</code>} {start-stop|stop-only|wait-start} <code>method</code> <code>method2</code></p>
 </li>
 </ol>
 <h3 id="排错-16">排错 </h3>
-<ul>
-<li>show class-map type inspect [<code>class-map</code>]</li>
-<li>show policy-map type inspect [<code>policy-name</code>]</li>
-<li>show policy-map type inspect zone-pair [<code>zone-pair-name</code>]</li>
-</ul>
+<ol>
+<li>需要使用aaa new-model启用aaa</li>
+</ol>
 <h2 id="coppcontrol-plane-policing">CoPP(control plane policing) </h2>
 <p>QoS policy to classify traffic into various types.</p>
-<h3 id="configure-4">configure </h3>
+<h3 id="configure-3">configure </h3>
 <ul>
 <li>创建acl识别流量</li>
 <li>创建分类映射定义流量类别
@@ -6959,8 +7773,26 @@ example:</li>
 <td>push</td>
 <td>push</td>
 </tr>
+<tr>
+<td></td>
+<td>declaritive</td>
+<td>procedural</td>
+<td>procedural</td>
+<td>declaritive</td>
+</tr>
 </tbody>
 </table>
+<h3 id="guestshell">guestshell </h3>
+<p>Guestshell is a virtualized Linux-based environment, designed to run custom Linux applications, including Python</p>
+<h4 id="configuration-3">configuration </h4>
+<ol>
+<li>iox</li>
+<li>guestshell enable [VirtualPortGroup <code>port-number</code> guest-ip <code>ip-address</code> gateway <code>gateway-ip</code> netmask <code>netmask</code> [name-server <code>ip-address</code>]]</li>
+</ol>
+<h4 id="use">use </h4>
+<ol>
+<li>guest run <code>command</code></li>
+</ol>
 <h2 id="urpf">uRPF </h2>
 <p>限制和消除ip欺骗包.基于cef.</p>
 <ul>
